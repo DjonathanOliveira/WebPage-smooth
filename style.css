@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Times New Roman';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.logo-texto{
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 5px 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu li a:hover{
+    font-size: 25px;
+
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+
+#home{
+    background-color: #466665;
+}
+
+#sobre{
+    background-color: #618C8B;
+}
+
+#portfolio{
+    background-color: #56B3B1;
+}
+
+#contato{
+    background-color: #7BB3B1;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: 200;
+}
